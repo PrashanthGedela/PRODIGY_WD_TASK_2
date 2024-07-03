@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/* header{
+    background-color: #0f1111;
+    text-align: center;
+    height: 100px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b59393;
+    color: #b59393;
+}
+
+.stopwatch{
+    background-color: #0f1111; 
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    display:list-item ;
+    justify-content:space-evenly;
+    font-size: 30px;
+}
+
+
+.display{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.options{
+    margin-top: 20px;
+}
+
+.laps{
+    
+    font-size: small;
+    margin-top: 2px;
+}
+
